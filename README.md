@@ -6,5 +6,5 @@ This bot leverages a metric called the **Quikfo Confidence Index** with the goal
 _Please note_: this bot is _not_ designed to work in a portfolio containing other positions. 
 ## Setup
 In order to run this bot simply:  
-* edit the `username`, `password`, and `key` fields with your Robinhood credentials and Quikfo API key.  *If you don't have a Quikfo API key then please email admin@quikfo.com in order to get one!*  
+* edit the `username`, `password`, and `key` fields within `acct.py` with your Robinhood credentials and Quikfo API key.  *If you don't have a Quikfo API key then please email admin@quikfo.com in order to get one!*  
 * set up a cron job to execute the `bot.py` file each weekday at some point towards the market open.
